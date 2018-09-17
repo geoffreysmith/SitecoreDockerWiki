@@ -50,7 +50,7 @@ Great question! There are many besides simply have consistency between environme
 
 ## What are the disadvantages to Docker?
 
-Windows support is mature, but still lacking. There are not so insignificant performance problems. AWS doesn't support Windows containers, but you can spin up your EC2 instance with containers. A lot of advantages of Docker and related tools are lost in this however. Scaling and recovery are limited. If this were a native Linux cluster, it would simply be saying checking a button saying scale as needed. Sitecore has other inherent limitations that scaling horizontally (adding IIS nodes) has licensing ramifications. As of this writing newer licenses may not have this limitation. Contact Sitecore on your license restrictions.
+Windows support is mature, but still lacking. There are not so insignificant performance problems. ~~AWS doesn't support Windows containers, but you can spin up your EC2 instance with containers~~ Edit: AWS supports it but had some issues perhaps due to the Windows Server version. A lot of advantages of Docker and related tools are lost in this however. Scaling and recovery are limited. If this were a native Linux cluster, it would simply be saying checking a button saying scale as needed. Sitecore has other inherent limitations that scaling horizontally (adding IIS nodes) has licensing ramifications. As of this writing newer licenses may not have this limitation. Contact Sitecore on your license restrictions.
 
 ## Additional thoughts
 
