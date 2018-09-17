@@ -44,7 +44,7 @@ Kubernetes is one of the many ways to manage clusters. Azure supports this by de
 
 Helm is a tool to manage Kubernetes, which makes it even more abstract. Most organizations will not benefit from Helm unless the project is large. I would stay away from Kubernetes and other higher level management tools until a base Docker environment is setup.
 
-## What other advantrages are there to Docker?
+## What other advantages are there to Docker?
 
 Great question! There are many besides simply have consistency between environments. If setup correctly, it is trivial to setup new environments, so much so that creating new environments *for each feature branch* may be automated. Consistency and ease of deployment are the largest advantages to date, however. No more 5,000 line scripted installs like SIF. Rollbacks are really rollbacks, it is the exact same image.
 
